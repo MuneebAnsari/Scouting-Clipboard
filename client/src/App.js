@@ -14,7 +14,7 @@ import Roster from "./components/Roster";
 import PlayerNotes from "./components/PlayerNotes";
 
 // Youtube API
-const API_KEY = "AIzaSyCi8kNgg4PEcJ0xzBPadQ-OVB9SMdsRFQQ";
+const API_KEY = "********************************";
 const MAX_RESULTS = 5;
 
 class App extends Component {
