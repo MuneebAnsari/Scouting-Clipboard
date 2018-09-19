@@ -1,0 +1,71 @@
+.Logo {
+  width: 10%;
+  height: 10%;
+  margin-left: auto;
+  opacity: 0.5;
+}
+
+.profileImg {
+  border: 1px black solid;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 30%;
+  width: 30%;
+}
+
+.player__name {
+  text-align: center;
+  margin: 0;
+}
+
+.info__container {
+  border: 2px black solid;
+  margin: 10px 10px 6px 10px;
+  display: inline-block;
+  padding: 5px;
+}
+
+.player__profile {
+  display: inline-block;
+  margin-left: 200px;
+}
+
+.stats {
+  display: flex;
+  border: 2px solid black;
+  margin: 0;
+  padding: 5px;
+  background-color: lightgray;
+}
+
+.stats ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.main__stats {
+  float: left;
+  margin-right: 10px;
+}
+
+.other__stats {
+  float: right;
+}
+
+.glyphicon-plus {
+  color: rgb(30, 138, 48);
+  font-size: 300%;
+  position: absolute;
+  top: 60px;
+  left: 27px;
+}
+
+.glyphicon-plus:hover {
+  color: rgb(30, 138, 48);
+  font-size: 50px;
+}
+
+.add-btn {
+}
