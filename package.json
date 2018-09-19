@@ -1,0 +1,16 @@
+{
+  "name": "react_basketball",
+  "version": "0.1.0",
+  "dependencies": {
+    "concurrently": "^4.0.1",
+    "express": "^4.16.3"
+  },
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "nodemon server.js",
+    "client": "cd client && npm start"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
